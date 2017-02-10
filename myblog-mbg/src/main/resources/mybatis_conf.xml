@@ -14,10 +14,10 @@
         </environment>
     </environments>
     
-    <mappers>
-        <!-- 注册userMapper.xml文件， 
-        userMapper.xml位于com.lw.mybatis.mapping这个包下，所以resource写成com/lw/mybatis/mapping/userMapper.xml-->
-       <!--  <mapper resource="com/lw/persistence/UsersMapper.xml"/> -->
-    </mappers>
+<!--     <mappers>
+        注册userMapper.xml文件， 
+        userMapper.xml位于com.lw.mybatis.mapping这个包下，所以resource写成com/lw/mybatis/mapping/userMapper.xml
+         <mapper resource="com/lw/persistence/UsersMapper.xml"/> 
+    </mappers> -->
     
 </configuration>

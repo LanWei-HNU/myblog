@@ -16,6 +16,10 @@ hs_err_pid*
 .classpath
 .project
 .settings/
+.project
+.classpath
+.settings
+.metadata
 
 # Target Files
 */target/*
@@ -57,3 +61,4 @@ out/
 *.iml
 
 package.json
+/myblog-web/

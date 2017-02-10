@@ -15,4 +15,32 @@
 		<version>${lw.myblog.version}</version>
 	</parent>
 	<artifactId>myblog-web</artifactId>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<!-- 模块间的依赖关系 -->
+		<dependency>
+			<groupId>com.lw</groupId>
+			<artifactId>myblog-service</artifactId>
+			<version>${lw.myblog.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.lw</groupId>
+			<artifactId>myblog-mbg</artifactId>
+			<version>${lw.myblog.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.lw</groupId>
+			<artifactId>myblog-common</artifactId>
+			<version>${lw.myblog.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.lw</groupId>
+			<artifactId>myblog-model</artifactId>
+			<version>${lw.myblog.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
 </project>
